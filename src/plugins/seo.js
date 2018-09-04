@@ -10,7 +10,6 @@ Vue.mixin({
     if (Cookies.get(localHtmlAttrsCookieKey)) {
       returnData = JSON.parse(Cookies.get(localHtmlAttrsCookieKey))
     }
-    console.log('returnData', returnData)
     if (
       !this._hasMetaInfo ||
       !this.$i18n ||
